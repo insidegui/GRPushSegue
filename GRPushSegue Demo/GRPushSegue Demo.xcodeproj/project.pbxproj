@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB2B4991A18CEAE00BEB02E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2B4981A18CEAE00BEB02E /* AppDelegate.m */; };
+		DDB2B49B1A18CEAE00BEB02E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2B49A1A18CEAE00BEB02E /* main.m */; };
+		DDB2B49E1A18CEAE00BEB02E /* GRDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2B49D1A18CEAE00BEB02E /* GRDemoViewController.m */; };
+		DDB2B4A01A18CEAE00BEB02E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB2B49F1A18CEAE00BEB02E /* Images.xcassets */; };
+		DDB2B4A31A18CEAE00BEB02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB2B4A11A18CEAE00BEB02E /* Main.storyboard */; };
+		DDB2B4BB1A18CECC00BEB02E /* GRPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2B4BA1A18CECC00BEB02E /* GRPushSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB2B4921A18CEAE00BEB02E /* GRPushSegue Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRPushSegue Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB2B4961A18CEAE00BEB02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB2B4971A18CEAE00BEB02E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB2B4981A18CEAE00BEB02E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB2B49A1A18CEAE00BEB02E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDB2B49C1A18CEAE00BEB02E /* GRDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDemoViewController.h; sourceTree = "<group>"; };
+		DDB2B49D1A18CEAE00BEB02E /* GRDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRDemoViewController.m; sourceTree = "<group>"; };
+		DDB2B49F1A18CEAE00BEB02E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDB2B4A21A18CEAE00BEB02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB2B4B91A18CECC00BEB02E /* GRPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPushSegue.h; sourceTree = "<group>"; };
+		DDB2B4BA1A18CECC00BEB02E /* GRPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPushSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB2B48F1A18CEAE00BEB02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB2B4891A18CEAE00BEB02E = {
+			isa = PBXGroup;
+			children = (
+				DDB2B4941A18CEAE00BEB02E /* GRPushSegue Demo */,
+				DDB2B4931A18CEAE00BEB02E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB2B4931A18CEAE00BEB02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2B4921A18CEAE00BEB02E /* GRPushSegue Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB2B4941A18CEAE00BEB02E /* GRPushSegue Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2B4B81A18CECC00BEB02E /* GRPushSegue */,
+				DDB2B4971A18CEAE00BEB02E /* AppDelegate.h */,
+				DDB2B4981A18CEAE00BEB02E /* AppDelegate.m */,
+				DDB2B49C1A18CEAE00BEB02E /* GRDemoViewController.h */,
+				DDB2B49D1A18CEAE00BEB02E /* GRDemoViewController.m */,
+				DDB2B49F1A18CEAE00BEB02E /* Images.xcassets */,
+				DDB2B4A11A18CEAE00BEB02E /* Main.storyboard */,
+				DDB2B4951A18CEAE00BEB02E /* Supporting Files */,
+			);
+			path = "GRPushSegue Demo";
+			sourceTree = "<group>";
+		};
+		DDB2B4951A18CEAE00BEB02E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2B4961A18CEAE00BEB02E /* Info.plist */,
+				DDB2B49A1A18CEAE00BEB02E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDB2B4B81A18CECC00BEB02E /* GRPushSegue */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2B4B91A18CECC00BEB02E /* GRPushSegue.h */,
+				DDB2B4BA1A18CECC00BEB02E /* GRPushSegue.m */,
+			);
+			name = GRPushSegue;
+			path = ../../GRPushSegue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB2B4911A18CEAE00BEB02E /* GRPushSegue Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB2B4B21A18CEAE00BEB02E /* Build configuration list for PBXNativeTarget "GRPushSegue Demo" */;
+			buildPhases = (
+				DDB2B48E1A18CEAE00BEB02E /* Sources */,
+				DDB2B48F1A18CEAE00BEB02E /* Frameworks */,
+				DDB2B4901A18CEAE00BEB02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GRPushSegue Demo";
+			productName = "GRPushSegue Demo";
+			productReference = DDB2B4921A18CEAE00BEB02E /* GRPushSegue Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB2B48A1A18CEAE00BEB02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDB2B4911A18CEAE00BEB02E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB2B48D1A18CEAE00BEB02E /* Build configuration list for PBXProject "GRPushSegue Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB2B4891A18CEAE00BEB02E;
+			productRefGroup = DDB2B4931A18CEAE00BEB02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB2B4911A18CEAE00BEB02E /* GRPushSegue Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB2B4901A18CEAE00BEB02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB2B4A01A18CEAE00BEB02E /* Images.xcassets in Resources */,
+				DDB2B4A31A18CEAE00BEB02E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB2B48E1A18CEAE00BEB02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB2B49E1A18CEAE00BEB02E /* GRDemoViewController.m in Sources */,
+				DDB2B49B1A18CEAE00BEB02E /* main.m in Sources */,
+				DDB2B4BB1A18CECC00BEB02E /* GRPushSegue.m in Sources */,
+				DDB2B4991A18CEAE00BEB02E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB2B4A11A18CEAE00BEB02E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB2B4A21A18CEAE00BEB02E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB2B4B01A18CEAE00BEB02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDB2B4B11A18CEAE00BEB02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDB2B4B31A18CEAE00BEB02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GRPushSegue Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB2B4B41A18CEAE00BEB02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GRPushSegue Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB2B48D1A18CEAE00BEB02E /* Build configuration list for PBXProject "GRPushSegue Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB2B4B01A18CEAE00BEB02E /* Debug */,
+				DDB2B4B11A18CEAE00BEB02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB2B4B21A18CEAE00BEB02E /* Build configuration list for PBXNativeTarget "GRPushSegue Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB2B4B31A18CEAE00BEB02E /* Debug */,
+				DDB2B4B41A18CEAE00BEB02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB2B48A1A18CEAE00BEB02E /* Project object */;
+}
