@@ -26,8 +26,6 @@
     
     NSRect destinationRect = fromViewController.view.frame;
     
-    [fromViewController.view addSubview:viewController.view];
-    
     [NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
         context.duration = kPushAnimationDuration;
         context.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
